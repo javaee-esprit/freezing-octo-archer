@@ -1,5 +1,6 @@
 package edu.esprit.wild;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,7 @@ import javax.inject.Named;
 
 @Named
 @ViewScoped
-public class UsesrBean {
+public class UsesrBean implements Serializable{
 	
 	
 	private List<String> users;
